@@ -1,6 +1,6 @@
 notifications:
     email:
-        - dean@airdb.com
+#        - dean@airdb.com
 dist: trusty
 sudo: required
 # services:
