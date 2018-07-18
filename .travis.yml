@@ -7,8 +7,6 @@ sudo: required
 #      - docker
 language: go
 go:
-	#- 1.8
-	#- 1.10
     - master
 # addons:
 #     apt:
