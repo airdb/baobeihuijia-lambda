@@ -11,6 +11,8 @@ all: package
 build: 
 #	echo $(FunctionName)
 #	go build main.go
+    go get github.com/tools/godep
+	godep save
 	GOOS=linux go build -o $(BUILD) .
 
 package: build
